@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "net.zygotelabs.locker.app-merged_res-36:/layout_lock_dialog_layout.xml.flat",
+        "source": "net.zygotelabs.locker.app-main-37:/layout/lock_dialog_layout.xml"
+    },
+    {
+        "merged": "net.zygotelabs.locker.app-merged_res-36:/layout_fragment_main.xml.flat",
+        "source": "net.zygotelabs.locker.app-main-37:/layout/fragment_main.xml"
+    },
+    {
+        "merged": "net.zygotelabs.locker.app-merged_res-36:/drawable-v26_ic_launcher.xml.flat",
+        "source": "net.zygotelabs.locker.app-main-37:/drawable-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "net.zygotelabs.locker.app-merged_res-36:/layout_disable_lock_dialog_layout.xml.flat",
+        "source": "net.zygotelabs.locker.app-main-37:/layout/disable_lock_dialog_layout.xml"
+    },
+    {
+        "merged": "net.zygotelabs.locker.app-merged_res-36:/drawable_ic_launcher.xml.flat",
+        "source": "net.zygotelabs.locker.app-main-37:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "net.zygotelabs.locker.app-merged_res-36:/drawable_ic_notification.xml.flat",
+        "source": "net.zygotelabs.locker.app-main-37:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "net.zygotelabs.locker.app-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "net.zygotelabs.locker.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "net.zygotelabs.locker.app-merged_res-36:/layout_icon_preview.xml.flat",
+        "source": "net.zygotelabs.locker.app-main-37:/layout/icon_preview.xml"
+    },
+    {
+        "merged": "net.zygotelabs.locker.app-merged_res-36:/menu_main.xml.flat",
+        "source": "net.zygotelabs.locker.app-main-37:/menu/main.xml"
+    },
+    {
+        "merged": "net.zygotelabs.locker.app-merged_res-36:/xml_device_admin_policies.xml.flat",
+        "source": "net.zygotelabs.locker.app-main-37:/xml/device_admin_policies.xml"
+    }
+]

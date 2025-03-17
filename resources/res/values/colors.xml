@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#e5e5e5</color>
+    <color name="colorBlue">#1e91c6</color>
+    <color name="colorGray">#616161</color>
+    <color name="colorGreen">#74ae35</color>
+    <color name="colorLightBlack">#202020</color>
+    <color name="colorLightGray">#9a9a9a</color>
+    <color name="colorOrange">#d48222</color>
+    <color name="colorRed">#c61e4e</color>
+    <color name="colorVeryLightGray">#d9d9d9</color>
+    <color name="colorWhite">#ffffff</color>
+</resources>

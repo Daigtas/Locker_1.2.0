@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Asetukset</string>
+    <string name="activity_sample_device_admin">Lockerin ylläpitäjä</string>
+    <string name="add_admin_extra_app_text">Lockerin täytyy tarkkailla ruudun lukituksen poistamisyrityksiä ja se tarvitsee kyvyn kaiken tiedon poistamiseen voidakseen tyhjentää laitteen riittävän monen epäonnistuneen lukituksen purkuyrityksen jälkeen.</string>
+    <string name="admin_checkbox">Ylläpitäjä käytössä</string>
+    <string name="admin_receiver_status_disable_warning">Locker ei pysty enää suojaamaan laitettasi</string>
+    <string name="admin_receiver_status_disabled">Locker ei ole enää laitteen ylläpitäjä</string>
+    <string name="admin_receiver_status_enabled">Locker on nyt laitteen ylläpitäjä</string>
+    <string name="admin_summary">Locker tarvitsee ylläpitäjän oikeudet voidakseen hallita lukitusnäytön suojausta.</string>
+    <string name="app_name">Locker</string>
+    <string name="attempts">Sallittujen purkuyritysten määrä</string>
+    <string name="device_admin">Locker</string>
+    <string name="disable">Poista käytöstä</string>
+    <string name="enable">Ota käyttöön</string>
+    <string name="hide_lockscreen_warning">Disable Lock Screen Warning</string>
+    <string name="hide_lockscreen_warning_error">Lock screen warning bypass and safe mode is not supported on this device.</string>
+    <string name="lock_dialog_reboot_only_summary">Your device will reboot after the specified number of failed unlock attempts. You can disable this protection at any time.</string>
+    <string name="lock_dialog_summary">Laitteesi pyyhitään tyhjäksi kun lukituksen purku on epäonnistunut riittävän monta kertaa. Voit poistaa tämän suojauksen käytöstä milloin tahansa Lockerin avulla.</string>
+    <string name="lock_dialog_title">Ota lukitusnäytön suojaus käyttöön?</string>
+    <string name="lock_disable_dialog_summary">Lukitusnäyttösi ei ole enää suojattu ja laitteesi lukituksen purkua voidaan yrittää rajoittamattomasti.</string>
+    <string name="lock_disable_dialog_title">Poista lukitusnäytön suojaus käytöstä?</string>
+    <string name="no">Ei</string>
+    <string name="not_protected">Ei suojattu</string>
+    <string name="not_protected_summary">Lukitusnäyttösi on tällä hetkellä suojaamaton.</string>
+    <string name="notification_safe_mode_wipe">Wipe condition triggered</string>
+    <string name="notification_safe_mode_wipe_summary">The maximum number of allowed unlock attempts was exceeded</string>
+    <string name="protect">Suojattu</string>
+    <string name="protected_safe_mode">Protected (Safe Mode)</string>
+    <string name="protected_safe_mode_summary">Safe Mode is enabled. No wipe will be performed</string>
+    <string name="protected_summary_one">Laite pyyhitään tyhjäksi</string>
+    <string name="protected_summary_two">epäonnistuneen lukituksen purkuyrityksen jälkeen.</string>
+    <string name="reboot_only">Device reboot only</string>
+    <string name="safe_mode">Safe Mode</string>
+    <string name="safe_mode_checkbox_title">Enable Safe Mode</string>
+    <string name="safe_mode_summary">No wipe will be performed when safe mode is enabled. A notification will be shown instead.</string>
+    <string name="yes">Kyllä</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Configurações</string>
+    <string name="activity_sample_device_admin">Administrador Locker</string>
+    <string name="add_admin_extra_app_text">O Locker precisa monitorar as tentativas de desbloqueio de tela e da habilidade de apagar todos os dados para que possa zerar o dispositivo depois de um dado número de tentativas falhas de desbloqueio.</string>
+    <string name="admin_checkbox">Administrador Habilitado</string>
+    <string name="admin_receiver_status_disable_warning">O Locker não poderá mais proteger seu dispositivo</string>
+    <string name="admin_receiver_status_disabled">O Locker não é mais um administrador do dispositivo</string>
+    <string name="admin_receiver_status_enabled">O Locker é agora um administrador do dispositivo</string>
+    <string name="admin_summary">O Locker precisa de acesso de Administrador para poder controlar a proteção da tela de bloqueio.</string>
+    <string name="app_name">Locker</string>
+    <string name="attempts">Tentativas de Desbloqueio Permitidas</string>
+    <string name="device_admin">Locker</string>
+    <string name="disable">Desativar</string>
+    <string name="enable">Ativar</string>
+    <string name="hide_lockscreen_warning">Desativar Alertas na Tela de Bloqueio</string>
+    <string name="hide_lockscreen_warning_error">Não é possível burlar os alertas da tela de bloqueio neste dispositivo.</string>
+    <string name="lock_dialog_reboot_only_summary">Seu dispositivo irá reiniciar após o especificado número de tentativas falhas de desbloqueio. Você pode desativar esta proteção a qualquer momento.</string>
+    <string name="lock_dialog_summary">Seu dispositivo será apagado após o especificado número de tentativas falhas de desbloqueio. Você pode desativar esta proteção a qualquer momento.</string>
+    <string name="lock_dialog_title">Ativar a proteção da tela de bloqueio?</string>
+    <string name="lock_disable_dialog_summary">Sua tela de bloqueio não estará mais protegida e um número ilimitado de tentativas de desbloqueio de seu dispositivo será possível.</string>
+    <string name="lock_disable_dialog_title">Desativar a proteção da tela de bloqueio?</string>
+    <string name="no">Não</string>
+    <string name="not_protected">Desprotegido</string>
+    <string name="not_protected_summary">Sua tela de bloqueio está desprotegida no momento.</string>
+    <string name="notification_safe_mode_wipe">Wipe condition triggered</string>
+    <string name="notification_safe_mode_wipe_summary">The maximum number of allowed unlock attempts was exceeded</string>
+    <string name="protect">Protegido</string>
+    <string name="protected_safe_mode">Protected (Safe Mode)</string>
+    <string name="protected_safe_mode_summary">Safe Mode is enabled. No wipe will be performed</string>
+    <string name="protected_summary_one">O dispositivo será apagado após</string>
+    <string name="protected_summary_two">tentativas falhas de desbloqueio.</string>
+    <string name="reboot_only">Dispositivo apenas reinicia</string>
+    <string name="safe_mode">Safe Mode</string>
+    <string name="safe_mode_checkbox_title">Enable Safe Mode</string>
+    <string name="safe_mode_summary">No wipe will be performed when safe mode is enabled. A notification will be shown instead.</string>
+    <string name="yes">Sim</string>
+</resources>

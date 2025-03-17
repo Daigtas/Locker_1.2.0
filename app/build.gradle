@@ -1,0 +1,94 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace = 'net.zygotelabs.locker'
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId = "net.zygotelabs.locker"
+        minSdk = 21
+        targetSdk = 34
+        versionCode = 12
+        versionName = "1.2.0"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("locker.keystore")
+            storePassword "your-store-password"
+            keyAlias "locker"
+            keyPassword "your-key-password"
+        }
+        debug {
+            storeFile file("${System.getProperty('user.home')}/.android/debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey" 
+            keyPassword "android"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled = true
+            proguardFiles(getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro')
+            signingConfig = signingConfigs.debug // Using debug signing for now
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    sourceSets {
+        main {
+            java {
+                srcDirs = ['src/main/java']
+                // Exclude auto-generated files that might conflict
+                exclude '**/BuildConfig.java'
+                exclude '**/R.java'
+            }
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    buildFeatures {
+        buildConfig = true
+    }
+}
+
+configurations.all {
+    resolutionStrategy {
+        force "org.jetbrains.kotlin:kotlin-stdlib:1.8.10"
+        force "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10"
+        force "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+    }
+}
+
+// For Java 8 compatibility - less restrictive than Java 11
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(8)
+    }
+}
+
+dependencies {
+    // Update AndroidX dependencies
+    implementation 'androidx.appcompat:appcompat:1.6.1'  // More stable version
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.preference:preference:1.2.1'
+    implementation 'androidx.core:core:1.10.1'
+
+    constraints {
+        implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10") {
+            because("kotlin-stdlib-jdk7 is now part of kotlin-stdlib")
+        }
+        implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10") {
+            because("kotlin-stdlib-jdk8 is now part of kotlin-stdlib")
+        }
+    }
+}

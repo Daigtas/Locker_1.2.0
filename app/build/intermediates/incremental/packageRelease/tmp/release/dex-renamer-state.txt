@@ -1,0 +1,4 @@
+#Mon Mar 17 13:13:14 EET 2025
+base.0=C\:\\Users\\lukmi\\Desktop\\Locker_1.1.1\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

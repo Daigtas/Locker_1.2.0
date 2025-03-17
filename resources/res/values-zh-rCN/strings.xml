@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">设置</string>
+    <string name="activity_sample_device_admin">Locker 管理员</string>
+    <string name="add_admin_extra_app_text">Locker 需要监控解锁尝试并获取清除全部数据的权限才能在制定次数的解锁尝试失败后清除设备上的数据.</string>
+    <string name="admin_checkbox">管理员权限已启用</string>
+    <string name="admin_receiver_status_disable_warning">Locker 将无法继续保护您的设备</string>
+    <string name="admin_receiver_status_disabled">Locker 不再拥有设备管理员权限</string>
+    <string name="admin_receiver_status_enabled">Locker 目前拥有设备管理员权限</string>
+    <string name="admin_summary">Locker 需要管理员权限以控制锁屏保护功能.</string>
+    <string name="app_name">Locker</string>
+    <string name="attempts">允许解锁尝试次数</string>
+    <string name="device_admin">Locker</string>
+    <string name="disable">禁用</string>
+    <string name="enable">启用</string>
+    <string name="hide_lockscreen_warning">Disable Lock Screen Warning</string>
+    <string name="hide_lockscreen_warning_error">Lock screen warning bypass and safe mode is not supported on this device.</string>
+    <string name="lock_dialog_reboot_only_summary">Your device will reboot after the specified number of failed unlock attempts. You can disable this protection at any time.</string>
+    <string name="lock_dialog_summary">您设备上的数据将在制定次数的解锁尝试失败后被清除. 您可随时用 Locker 禁用此项保护功能.</string>
+    <string name="lock_dialog_title">启用锁屏保护?</string>
+    <string name="lock_disable_dialog_summary">您的锁屏将不再处于被保护状态并可接受无限次解锁尝试.</string>
+    <string name="lock_disable_dialog_title">禁用锁屏保护?</string>
+    <string name="no">取消</string>
+    <string name="not_protected">未保护</string>
+    <string name="not_protected_summary">您的锁屏目前未被保护.</string>
+    <string name="notification_safe_mode_wipe">Wipe condition triggered</string>
+    <string name="notification_safe_mode_wipe_summary">The maximum number of allowed unlock attempts was exceeded</string>
+    <string name="protect">已保护</string>
+    <string name="protected_safe_mode">Protected (Safe Mode)</string>
+    <string name="protected_safe_mode_summary">Safe Mode is enabled. No wipe will be performed</string>
+    <string name="protected_summary_one">该设备上的数据将在</string>
+    <string name="protected_summary_two">次失败的解锁尝试后被清除.</string>
+    <string name="reboot_only">Device reboot only</string>
+    <string name="safe_mode">Safe Mode</string>
+    <string name="safe_mode_checkbox_title">Enable Safe Mode</string>
+    <string name="safe_mode_summary">No wipe will be performed when safe mode is enabled. A notification will be shown instead.</string>
+    <string name="yes">确认</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Innstillinger</string>
+    <string name="activity_sample_device_admin">Locker Administrator</string>
+    <string name="add_admin_extra_app_text">Locker behøver å overvåke skjermopplåsing og evnen til å slette all brukerdata etter et gitt antall mislykkede forsøk på å låse opp enheten.</string>
+    <string name="admin_checkbox">Administratortilgang</string>
+    <string name="admin_receiver_status_disable_warning">Locker vil ikke lenger kunne beskytte enheten din</string>
+    <string name="admin_receiver_status_disabled">Locker er ikke lenger en enhetsadministrator</string>
+    <string name="admin_receiver_status_enabled">Locker er nå en enhetsadministrator</string>
+    <string name="admin_summary">Locker trenger administratortilgang for å kunne overvåke enhetenlåsen.</string>
+    <string name="app_name">Locker</string>
+    <string name="attempts">Tillate Forsøk</string>
+    <string name="device_admin">Locker</string>
+    <string name="disable">Deaktiver</string>
+    <string name="enable">Aktiver</string>
+    <string name="hide_lockscreen_warning">Deaktiver varsling på låseskjerm</string>
+    <string name="hide_lockscreen_warning_error">Deaktivering av varsling på låseskjerm er ikke mulig på denne enheten</string>
+    <string name="lock_dialog_reboot_only_summary">Your device will reboot after the specified number of failed unlock attempts. You can disable this protection at any time.</string>
+    <string name="lock_dialog_summary">Enheten din vil bli slettet og tilbakestilt etter det gitte antallet mislykkede opplåsingsforsøk. Du kan deaktivere beskyttelsen når som helst fra Locker.</string>
+    <string name="lock_dialog_title">Aktiver beskyttelse av enhetslåslås?</string>
+    <string name="lock_disable_dialog_summary">Låseskjermen din vil ikke lenger være beskyttet som muliggjør et uendelig antall forsøk på å låse opp enheten.</string>
+    <string name="lock_disable_dialog_title">Deaktiver beskyttelsen av enhetslås?</string>
+    <string name="no">Nei</string>
+    <string name="not_protected">Ikke beskyttet</string>
+    <string name="not_protected_summary">Låseskjermen din er ikke beskyttet.</string>
+    <string name="notification_safe_mode_wipe">Kriteriet for sletting av brukerdata oppfylt.</string>
+    <string name="notification_safe_mode_wipe_summary">Maksimalt antall tillatte opplåsingsforsøk ble overskridet.</string>
+    <string name="protect">Beskyttet</string>
+    <string name="protected_safe_mode">Beskyttet (Safe Mode)</string>
+    <string name="protected_safe_mode_summary">Safe Mode er aktivt. Enheten wipes ikke.</string>
+    <string name="protected_summary_one">Enheten vil bli slettet etter</string>
+    <string name="protected_summary_two">mislykkede opplåsingsforsøk.</string>
+    <string name="reboot_only">Kun reboot</string>
+    <string name="safe_mode">Safe Mode</string>
+    <string name="safe_mode_checkbox_title">Aktiver Safe Mode</string>
+    <string name="safe_mode_summary">Enheten slettes ikke når safe mode er aktivert. En notification vises istedenfor.</string>
+    <string name="yes">Ja</string>
+</resources>
